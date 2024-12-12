@@ -49,10 +49,29 @@ margin: 0;
 display: flex;
   justify-content: center;
   gap: 30px;
-  
+}
+
+.link:hover{
+    transition: 0.3s;
+
+    color: red;
 }
 
 
+.link-end{
+  color: rgb(160, 160, 160);
+}
+
+.link-return {
+  text-decoration: underline;
+}
+
+
+.link-return:hover{
+    transition: 0.3s;
+    text-decoration: underline;
+      color: red;
+}
 
 
 /*header*/
@@ -68,6 +87,18 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+
+.main-contact{
+    height: 1000px;
+      background-image: url("./img/background.jpg");
+      background-size: cover;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
 
  .title {
    margin: 0;
@@ -129,3 +160,27 @@ color: red;
 }
 
 /*footer*/
+
+
+.test
+{
+
+    color: green;
+ 
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+  }
+
+  @keyframes type {
+    from {
+      width: 0;
+    }
+  }
+
+  @-webkit-keyframes type {
+    from {
+      width: 0;
+    }
+  }
