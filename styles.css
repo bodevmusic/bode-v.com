@@ -51,13 +51,19 @@ display: flex;
   gap: 30px;
 }
 
-.link:hover{
-    transition: 0.3s;
 
-    color: red;
+
+.link{
+  border: 1px solid;
 }
 
+.link:hover {
+  transition: 0.3s;
 
+  color: red;
+}
+
+/*внимание*/
 .link-end{
   color: rgb(160, 160, 160);
 }
@@ -72,7 +78,7 @@ display: flex;
     text-decoration: underline;
       color: red;
 }
-
+/*внимание*/
 
 /*header*/
 
@@ -162,25 +168,3 @@ color: red;
 /*footer*/
 
 
-.test
-{
-
-    color: green;
- 
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: type 5s steps(50, end);
-    animation: type 5s steps(50, end);
-  }
-
-  @keyframes type {
-    from {
-      width: 0;
-    }
-  }
-
-  @-webkit-keyframes type {
-    from {
-      width: 0;
-    }
-  }
