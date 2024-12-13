@@ -44,23 +44,26 @@ margin: 0;
 
 /*header*/
 
+
 .link-menu{
   padding: 20px 10px;
 display: flex;
   justify-content: center;
   gap: 30px;
+  background-color: gray;
 }
 
 
 
 .link{
   border: 1px solid;
+padding: 5px 15px;
+border-radius: 8px;
 }
 
 .link:hover {
   transition: 0.3s;
-
-  color: red;
+border-color: rgb(255, 0, 0);
 }
 
 /*внимание*/
@@ -84,7 +87,8 @@ display: flex;
 
 
 /*main*/
-main{
+.home{
+
   height: 1000px;
  background-image: url("./img/background.jpg");
  background-size: cover;
@@ -95,15 +99,6 @@ main{
 }
 
 
-.main-contact{
-    height: 1000px;
-      background-image: url("./img/background.jpg");
-      background-size: cover;
-    
-      display: flex;
-      justify-content: center;
-      align-items: center;
-}
 
 
  .title {
@@ -115,6 +110,10 @@ main{
 .title:hover{
   color: red;
 }
+
+
+
+
 
 /*main*/
 
