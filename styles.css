@@ -66,7 +66,7 @@ border-radius: 8px;
 border-color: rgb(255, 0, 0);
 }
 
-/*внимание*/
+
 .link-end{
   color: rgb(160, 160, 160);
 }
@@ -81,7 +81,7 @@ border-color: rgb(255, 0, 0);
     text-decoration: underline;
       color: red;
 }
-/*внимание*/
+
 
 /*header*/
 
@@ -99,6 +99,14 @@ border-color: rgb(255, 0, 0);
 }
 
 
+.home-releases {
+
+
+
+  display: flex;
+  justify-content: center;
+
+}
 
 
  .title {
@@ -118,6 +126,26 @@ border-color: rgb(255, 0, 0);
 /*main*/
 
 
+/*releases*/
+
+.list-releases{
+  padding-top: 20px;
+}
+
+
+.name{
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.img-cover{
+  border-radius: 10px;
+  margin: auto;
+    display: block;
+}
+
+
+/*releases*/
 /*footer*/
 
 .footer-container{
