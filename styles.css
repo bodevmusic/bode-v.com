@@ -104,6 +104,7 @@ border-color: rgb(255, 0, 0);
   display: flex;
   justify-content: center;
 
+
 }
 
 
@@ -126,17 +127,28 @@ border-color: rgb(255, 0, 0);
 
 /*releases*/
 
+.releases{
+    
+  width: 360px;
+}
+ 
+
+
 .list-releases{
   padding-top: 20px;
   padding-bottom: 20px;
- border: 2px solid red;
+ border: 2px solid rgb(0, 0, 0);
  border-radius: 20px;
 margin: 20px 20px;
+transition: 1s;
+
 
 }
 
 .list-releases:hover {
   transform: scale(1.02);
+  transition: 1s;
+  
 }
 
 .name{
@@ -148,15 +160,30 @@ margin: 20px 20px;
   border-radius: 10px;
   margin: auto;
     display: block;
+   
+}
+
+.audio{
+margin: auto;
+  display: block;
+width: 260px;
+  height: 48px;
+
 }
 
 
+.inform-all-releases{
+  margin: 20px;
+  text-align: center;
+}
 
 /*releases*/
+
+
 /*footer*/
 
 .footer-container{
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(197, 197, 197);
 
 }
 
@@ -177,18 +204,15 @@ display: flex;
 }
 
 
-.footer-logo {
-transition: 1.05s;
-
-
+.social-logo {
+  fill: rgb(0, 0, 0);
+  transition: 1.05s;
 }
 
-.footer-logo:hover {
- scale: 1.14;
-transition: 1.05s;
-color: red;
-
-
+.social-logo:hover {
+  fill: rgb(33, 182, 58);
+  scale: 1.14;
+  transition: 1.05s;
 }
 
 
