@@ -205,12 +205,13 @@ display: flex;
 
 
 .social-logo {
+ width: 100px;
   fill: rgb(0, 0, 0);
   transition: 1.05s;
 }
 
 .social-logo:hover {
-  fill: rgb(33, 182, 58);
+  fill: rgb(33, 197, 0);
   scale: 1.14;
   transition: 1.05s;
 }
