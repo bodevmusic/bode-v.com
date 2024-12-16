@@ -184,7 +184,7 @@ width: 260px;
 
 .footer-container{
   background-color: rgb(197, 197, 197);
-
+ 
 }
 
 .footer-menu{
@@ -194,28 +194,48 @@ display: flex;
     padding: 20px 10px;
     }
 
-
+.address-info{
+  display: flex;
+  justify-content: center;
+}
 
 .social-list{
-  display: flex;
-    justify-content: center;
+
     gap: 30px;
     padding: 20px 10px;
+  
 }
+
+
 
 
 .social-logo {
  width: 100px;
   fill: rgb(0, 0, 0);
   transition: 1.05s;
+  
 }
 
 .social-logo:hover {
-  fill: rgb(33, 197, 0);
   scale: 1.14;
   transition: 1.05s;
 }
 
+.hover-beatport:hover{
+  fill: rgb(1, 255, 149);
+}
+
+.hover-spotify:hover {
+  fill: rgb(30, 215, 96);
+}
+
+.hover-apple:hover {
+  fill: rgb(251, 63, 89);
+}
+
+.hover-youtube:hover {
+  fill: rgb(255, 0, 0);
+}
 
 .copyright{
     display: flex;
