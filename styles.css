@@ -18,6 +18,8 @@ body{
 }
 
 .banner{
+  padding-top: 6px;
+  padding-bottom: 4px;
   background-color: black;
   color: white;
 display: flex;
@@ -30,7 +32,7 @@ display: flex;
  
 a{
 text-decoration: none;
-color: black;
+color: rgb(255, 255, 255);
 }
 
 ul{
@@ -50,7 +52,7 @@ margin: 0;
 display: flex;
   justify-content: center;
   gap: 30px;
-  background-color: rgb(255, 255, 255);
+background: linear-gradient(45deg, #656965, #3e5536);
 }
 
 
@@ -64,9 +66,11 @@ transition: 1.05s;
 
 .link:hover {
   transition: 1.05s;
-
-background-color: rgb(255, 0, 0);
+ color: #bbfab7;
+border-color: transparent;
+background-color: transparent;
 }
+
 
 
 .link-end{
@@ -74,15 +78,15 @@ background-color: rgb(255, 0, 0);
 }
 
 .link-return {
-  text-decoration: underline;
+  
   transition: 1.05s;
 }
 
 
 .link-return:hover{
     transition: 1.05s;
-    text-decoration: underline;
-      color: red;
+  
+    color: rgb(160, 160, 160);
       
 }
 
@@ -93,8 +97,8 @@ background-color: rgb(255, 0, 0);
 /*main*/
 .home{
 
-  height: 600px;
- background-image: url("./img/background.jpg");
+  height: 800px;
+ background-image: url("./img/4.jpg");
  background-size: cover;
 
   display: flex;
@@ -104,7 +108,8 @@ background-color: rgb(255, 0, 0);
 
 
 .home-releases {
-background-color: black;
+background-image: url("./img/4.jpg");
+  background-size: cover;
   display: flex;
   justify-content: center;
 
@@ -120,7 +125,7 @@ background-color: black;
  }
 
 .title:hover{
-  color: red;
+  color: #257c2b;
   transition: 1.05s;
 }
 
@@ -143,7 +148,7 @@ background-color: black;
 .list-releases{
   padding-top: 20px;
   padding-bottom: 20px;
- border: 2px solid rgb(255, 255, 255);
+ border: 2px solid rgb(126, 126, 126);
  border-radius: 20px;
 margin: 20px 20px;
 transition: 1s;
@@ -154,7 +159,8 @@ transition: 1s;
 .list-releases:hover {
   transform: scale(1.02);
   transition: 1s;
-  border: 2px solid rgb(255, 0, 0);
+  border: 2px solid transparent;
+ 
 }
 
 .name{
@@ -190,15 +196,15 @@ width: 260px;
 /*footer*/
 
 .footer-container{
- border-top: 2px solid rgb(255, 25, 0);
-background-color: black;
+background: linear-gradient(45deg, #656965, #3e5536);
+
 }
 
 .footer-menu{
 display: flex;
   justify-content: center;
     gap: 30px;
-    padding-top: 40px;
+    padding-top: 36px;
   
  
 
@@ -249,6 +255,10 @@ margin-top: 20px;
 
 .hover-apple:hover {
   fill: rgb(251, 63, 89);
+}
+
+.hover-youtube:hover {
+  fill: rgb(255, 0, 0);
 }
 
 .hover-youtube:hover {
