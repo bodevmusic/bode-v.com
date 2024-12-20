@@ -43,14 +43,23 @@ ul {
 
 /*header*/
 
+
+
 .link-menu {
   padding: 20px 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 30px;
   background: linear-gradient(45deg, var(--gradient-gray-color), var(--gradient-green-color));
 
-
+  @media (min-width: 769px) {
+    display: flex;
+      justify-content: center;
+      align-items: center;
+     height: 44px;
+      padding: 30px 10px;
+    }
 
 }
 
@@ -59,6 +68,16 @@ ul {
   padding: 8px 16px;
   border-radius: 8px;
   transition: 1.05s;
+
+  @media (min-width: 769px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 44px;
+      font-size: 26px;
+  padding: 4px 10px;
+    }
+
 }
 
 .link:hover {
@@ -70,10 +89,19 @@ ul {
 
 .link-end {
   color: var(--gray-color);
+
+  @media (min-width: 769px) {
+      font-size: 26px;
+    }
 }
 
 .link-return {
   transition: 1.05s;
+
+  @media (min-width: 769px) {
+      font-size: 26px;
+    }
+ 
 }
 
 .link-return:hover {
@@ -121,14 +149,16 @@ ul {
 
 
 
-.releases {
-  width: 360px;
 
 
+.all-releases{
+    @media (min-width: 376px) {
+        display: flex;
+        flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+      }
 }
-
-
-
 
 
 
@@ -140,7 +170,21 @@ ul {
   border-radius: 20px;
   margin: 20px 20px;
   transition: 1s;
+
+
+
+  @media (min-width: 376px) {
   
+      padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 2px solid var(--gray-color);
+        border-radius: 20px;
+        margin: 20px 20px;
+        transition: 1s;
+    }
+
 }
 
 .list-releases:hover {
@@ -191,7 +235,9 @@ ul {
   gap: 30px;
   padding-top: 36px;
 
-
+  @media (min-width: 769px) {
+    padding-top: 16px;
+    }
 
 }
 
@@ -219,7 +265,7 @@ max-width: 300px;
       display: flex;
 flex-wrap: nowrap;
 justify-content: center;
-  align-items: center;
+
     }
 
 }
@@ -234,14 +280,6 @@ justify-content: center;
   fill: var(--white-color);
   transition: 1.05s;
 
-@media (min-width: 426px) {
-    display: flex;
-    justify-content: space-between;
-
-    gap: 30px;
-
-
-  }
 
 }
 
