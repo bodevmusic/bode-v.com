@@ -45,6 +45,8 @@ ul {
 
 
 
+
+
 .link-menu {
   padding: 20px 10px;
   display: flex;
@@ -52,6 +54,8 @@ ul {
   align-items: center;
   gap: 30px;
   background: linear-gradient(45deg, var(--gradient-gray-color), var(--gradient-green-color));
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.7);
+
 
   @media (min-width: 769px) {
     display: flex;
@@ -59,39 +63,40 @@ ul {
       align-items: center;
      height: 44px;
       padding: 30px 10px;
+      
     }
 
 }
 
 .link {
-  border: 1px solid;
+
   padding: 8px 16px;
   border-radius: 8px;
-  transition: 1.05s;
+  transition: 1.01s;
+box-shadow: 0px 5px 10px 0px rgba(101, 255, 137, 0.7);
 
   @media (min-width: 769px) {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 44px;
-      font-size: 26px;
+     
   padding: 4px 10px;
     }
 
 }
 
 .link:hover {
-  transition: 1.05s;
-  color: var(--light-green-hover-color);
-  border-color: transparent;
-  background-color: transparent;
+
+box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.7);
+transition: 1.01s;
 }
 
 .link-end {
   color: var(--gray-color);
 
   @media (min-width: 769px) {
-      font-size: 26px;
+      font-size: 20px;
     }
 }
 
@@ -99,7 +104,7 @@ ul {
   transition: 1.05s;
 
   @media (min-width: 769px) {
-      font-size: 26px;
+      font-size: 20px;
     }
  
 }
@@ -124,10 +129,13 @@ ul {
 }
 
 .home-releases {
-  background-image: url("./img/background.jpg");
-  background-size: cover;
+background: linear-gradient(45deg, var(--black-color), var(--gradient-green-color));
   display: flex;
   justify-content: center;
+
+ 
+  
+
 }
 
 .title {
@@ -152,6 +160,8 @@ ul {
 
 
 .all-releases{
+
+
     @media (min-width: 376px) {
         display: flex;
         flex-wrap: wrap;
@@ -166,11 +176,11 @@ ul {
 .list-releases {
   padding-top: 20px;
   padding-bottom: 20px;
-  border: 2px solid var(--gray-color);
+
   border-radius: 20px;
   margin: 20px 20px;
   transition: 1s;
-
+box-shadow: inset 0px -15px 10px 0px rgba(0, 0, 0, 0.7);
 
 
   @media (min-width: 376px) {
@@ -179,7 +189,7 @@ ul {
         padding-bottom: 20px;
         padding-left: 20px;
         padding-right: 20px;
-        border: 2px solid var(--gray-color);
+       
         border-radius: 20px;
         margin: 20px 20px;
         transition: 1s;
@@ -188,9 +198,9 @@ ul {
 }
 
 .list-releases:hover {
-  transform: scale(1.02);
+  transform: scale(1.03);
   transition: 1s;
-  border: 2px solid transparent;
+  
 }
 
 .name {
@@ -221,11 +231,13 @@ ul {
 
 /*footer*/
 
+
+
 .footer-container {
   background: linear-gradient(45deg, var(--gradient-gray-color), var(--gradient-green-color));
 
-    
-
+ 
+box-shadow: inset 0px 15px 10px 0px rgba(0, 0, 0, 0.7);
 
 }
 
