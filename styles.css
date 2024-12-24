@@ -139,6 +139,12 @@ transition: 1.01s;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 425px) {
+      height: 1000px;
+  
+    }
+
 }
 
 .home-releases {
