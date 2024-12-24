@@ -140,10 +140,7 @@ transition: 1.01s;
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 425px) {
-      height: 1000px;
-  
-    }
+
 
 }
 
